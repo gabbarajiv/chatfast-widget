@@ -1,0 +1,27 @@
+{
+  "title": "Support",
+  "subtitle": "Online",
+  "baseUrl": "https://ollama.com",
+  "model": "gemma3:27b",
+  "provider": "ollama",
+  "mode": "chat",
+  "theme": {
+    "appearance": "auto",
+    "showThemeToggle": true,
+    "launcherIcon": "chat",
+    "launcher": "#6366f1",
+    "launcherHover": "#4f46e5",
+    "launcherIconColor": "#ffffff",
+    "primary": "#6366f1",
+    "header": "linear-gradient(135deg, #4f46e5 0%, #6366f1 50%, #8b5cf6 100%)",
+    "headerText": "#ffffff",
+    "userBubble": "linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)",
+    "dark": {
+      "launcher": "#818cf8",
+      "launcherHover": "#6366f1",
+      "launcherIconColor": "#1e1b4b",
+      "surface": "#0f172a",
+      "assistantBubble": "#1e293b"
+    }
+  }
+}

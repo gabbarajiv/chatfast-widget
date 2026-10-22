@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+:host {
+  --cf-scale: 1;
+  --cf-primary: #6366f1;
+  --cf-primary-hover: #4f46e5;
+  --cf-surface: #ffffff;
+  --cf-surface-elevated: #f8fafc;
+  --cf-border: #e2e8f0;
+  --cf-text: #0f172a;
+  --cf-muted: #64748b;
+  --cf-user: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  --cf-assistant: #f1f5f9;
+  --cf-radius: 16px;
+  --cf-radius-sm: 10px;
+  --cf-shadow: 0 24px 64px rgba(15, 23, 42, 0.16);
+  --cf-font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+
+  --cf-header: linear-gradient(135deg, #4f46e5 0%, #6366f1 45%, #8b5cf6 100%);
+  --cf-header-text: #ffffff;
+  --cf-header-muted: rgba(255, 255, 255, 0.78);
+  --cf-header-border: rgba(255, 255, 255, 0.12);
+  --cf-header-action-hover: rgba(255, 255, 255, 0.14);
+  --cf-composer: var(--cf-surface-elevated);
+  --cf-launcher: #0f172a;
+  --cf-launcher-hover: #1e293b;
+  --cf-launcher-icon: #ffffff;
+  --cf-launcher-size: 56px;
+  --cf-launcher-glyph-size: 34px;
+
+  font-family: var(--cf-font);
+  font-size: 14px;
+  color: var(--cf-text);
+}
+
+:host([data-theme="dark"]) {
+  --cf-surface: #0f172a;
+  --cf-surface-elevated: #1e293b;
+  --cf-border: #334155;
+  --cf-text: #f1f5f9;
+  --cf-muted: #94a3b8;
+  --cf-assistant: #1e293b;
+  --cf-shadow: 0 24px 64px rgba(0, 0, 0, 0.45);
+  --cf-header: linear-gradient(135deg, #312e81 0%, #4338ca 50%, #6d28d9 100%);
+  --cf-header-border: rgba(255, 255, 255, 0.1);
+  --cf-launcher: #0f172a;
+  --cf-launcher-hover: #334155;
+  --cf-launcher-icon: #ffffff;
+}
